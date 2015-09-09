@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cuba (3.4.0)
+      rack
+    daemons (1.2.3)
+    eventmachine (1.0.8)
+    hiredis (0.6.0)
+    rack (1.6.4)
+    redic (1.5.0)
+      hiredis
+    thin (1.6.3)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0)
+      rack (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cuba
+  redic
+  thin
+
+BUNDLED WITH
+   1.10.6
