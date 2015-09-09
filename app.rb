@@ -1,6 +1,5 @@
 require 'cuba'
 require 'redic'
-require 'pry'
 
 redis = Redic.new
 
