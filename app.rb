@@ -1,7 +1,7 @@
 require 'cuba'
 require 'redic'
 
-redis = Redic.new
+redis = Redic.new ENV['REDIS_URL'] || 'redis://127.0.0.1:6379'
 
 Cuba.define do
   on get do
